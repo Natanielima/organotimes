@@ -1,8 +1,10 @@
 .banner{
-    background-color: #6278f7;
-    text-align: center;
+    background-image: url(/public/imagens/campo.jpg);
+    background-position: bottom;
+    background-size: cover;
 }
 
-.banner img{
-    max-width: 100%;
+.tamanhoImg{
+    width: 400px;
+    height: 400px;
 }

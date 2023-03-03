@@ -1,0 +1,10 @@
+.menuPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(78, 153, 78)
+}
+.menuPrincipal h1{
+    color:black;
+    margin: 16px 16px 16px 16px;
+}

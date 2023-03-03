@@ -2,14 +2,30 @@
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
 }
 
 .Lista-suspensa select{
     background-color: #FFF;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
     width: 100%;
+    margin-bottom: 40px;
     border: none;
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
 }
+
+.imagemTime{
+    width: 76px;
+    height: 76px;
+}
+.Lista-suspensa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
