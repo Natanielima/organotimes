@@ -3,9 +3,6 @@ import './ListaSuspensa.css'
 
 const ListaSuspensa= (props)=>{
 
-
-
-
     return(
         <div className='Lista-suspensa'>
 
