@@ -151,7 +151,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       cargo:"meio de campo",
-      imagem:"https://fortal.com.br/wp-content/uploads/2021/06/nattan-2.jpg",
+      imagem:"https://pbs.twimg.com/profile_images/1597421774676828165/m-BUQtop_400x400.jpg",
       nome:"jairzinho",
       time:"Fluminense"
     },
@@ -159,7 +159,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       cargo:"meio de campo",
-      imagem:"https://fortal.com.br/wp-content/uploads/2021/06/nattan-2.jpg",
+      imagem:"https://pbs.twimg.com/profile_images/1597421774676828165/m-BUQtop_400x400.jpg",
       nome:"natanzinho",
       time:"Flamengo"
     },
@@ -167,7 +167,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       cargo:"meio de campo",
-      imagem:"https://fortal.com.br/wp-content/uploads/2021/06/nattan-2.jpg",
+      imagem:"https://pbs.twimg.com/profile_images/1597421774676828165/m-BUQtop_400x400.jpg",
       nome:"natanzinho",
       time:"Botafogo"
     },
@@ -175,7 +175,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       cargo:"meio de campo",
-      imagem:"https://fortal.com.br/wp-content/uploads/2021/06/nattan-2.jpg",
+      imagem:"https://pbs.twimg.com/profile_images/1597421774676828165/m-BUQtop_400x400.jpg",
       nome:"natanzinho",
       time:"Santos"
     }
