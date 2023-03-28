@@ -1,10 +1,4 @@
 .banner{
-    background-image: url(/public/imagens/campo.jpg);
     background-position: bottom;
     background-size: cover;
-}
-
-.tamanhoImg{
-    width: 400px;
-    height: 400px;
 }

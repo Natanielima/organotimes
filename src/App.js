@@ -198,7 +198,7 @@ function App() {
   return (
     <div className="App">
       <MenuCima times={times.map(time=>time.nome)}/>
-      <Banner/>
+      <Banner enderecoImagem='/imagens/campo.png'/>
       <Formulario cadastrarTime={cadastrarTime} times={times.map(time=>time.nome)} escudo={times} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)} aoDeletar={deletarColaborador}/>
 
       {times.map(time=> <Time 
