@@ -1,8 +1,16 @@
 import Colaborador from '../Colaborador'
 import hexToRgba from 'hex-to-rgba';
 import './Time.css'
+import { Icolaborador } from '../../compartilhado/interfaces/IColaborador';
 
-const Time =(props)=>{
+interface TimeProps{
+    corPrimaria: string
+    nome: string
+    colaboradores: Icolaborador[]
+    id: number
+}
+
+const Time =(props: TimeProps)=>{
 
     return(
 
