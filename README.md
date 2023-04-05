@@ -5,7 +5,7 @@
 </h1>
 
 <div align="center">
-<h2>Um projeto em React que possibilida a inserção de jogadores em qualquer time! Basta adicionar uma imagem e selecionar o time! E se não tiver o seu time do coração é só adiciona-lo também!</h2>
+<h2>Um projeto em React, e fazendo a alteração para o TypeScript que possibilida a inserção de jogadores em qualquer time! Basta adicionar uma imagem e selecionar o time! E se não tiver o seu time do coração é só adiciona-lo também!</h2>
 
 <img width="700px"  src=".\public\imagens\Vídeo sem título ‐ Feito com o Clipchamp (5).gif">
 </div>
