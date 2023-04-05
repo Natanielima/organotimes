@@ -7,7 +7,8 @@ interface TimeProps{
     corPrimaria: string
     nome: string
     colaboradores: Icolaborador[]
-    id: number
+    id: string
+    mudarCor: (cor: any, id: any) => void
 }
 
 const Time =(props: TimeProps)=>{
@@ -30,7 +31,7 @@ const Time =(props: TimeProps)=>{
             
         </section>
 
-        : ''
+        : <></>
     )
 
 }
