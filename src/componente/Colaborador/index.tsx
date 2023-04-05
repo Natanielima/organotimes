@@ -7,9 +7,9 @@ interface ColaboradorProps{
     cargo: string
     corDeFundo: string
     id: string
-    time: {time:string}
+    time:{time:string}
     aoDeletar: (id: any) => void
-    colaborador:{id:string, favorito:string}
+    colaborador:{id:string, favorito:boolean, colaborador:string}
     aoFavoritar: (id: any) => void
 }
 

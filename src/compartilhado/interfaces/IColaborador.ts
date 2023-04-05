@@ -2,7 +2,8 @@ export interface Icolaborador{
     nome: string
     cargo: string
     imagem: string
-    id:number
+    id:string
     favorito: boolean
     colaborador: string
+    time: { time: string }
 }

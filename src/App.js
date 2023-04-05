@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Banner from './componente/banner';
 import Formulario from './componente/Formulario';
-import MenuCima from './componente/menuCima';
 import Rodape from './componente/Rodape';
 import Time from './componente/Time';
 import { v4 as uuidv4 } from 'uuid';
@@ -197,7 +196,6 @@ function App() {
 
   return (
     <div className="App">
-      <MenuCima times={times.map(time=>time.nome)}/>
       <Banner enderecoImagem='/imagens/campo.png'/>
       <Formulario cadastrarTime={cadastrarTime} times={times.map(time=>time.nome)} escudo={times} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)} aoDeletar={deletarColaborador}/>
 

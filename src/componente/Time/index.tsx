@@ -9,6 +9,9 @@ interface TimeProps{
     colaboradores: Icolaborador[]
     id: string
     mudarCor: (cor: any, id: any) => void
+    time:string
+    aoDeletar: (id: any) => void
+    aoFavoritar: (id: any) => void
 }
 
 const Time =(props: TimeProps)=>{
